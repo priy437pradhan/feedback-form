@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightyellow;
+
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+
+}
+.input_container{
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    margin: 30px 0 30px 0;
+    height: 30px;
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+.comment_container{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    border-radius: 4px;
+    width: 70%;
+    height: 80px;
+}
+
+.textarea_container{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #F5F5F5;
+   
+        background-color: #886699;
+            background-image: linear-gradient(180deg, #886699 0%, #ccaadd 50%, #ffffff 100%);
+    margin-top: 120px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2 );
+    border-radius: 3px;
+}
+.star_container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+}
+p{
+    font-size: 40px;
+
+}
+
+.container ul {
+    display: flex;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+button{
+    padding: 12px 40px 12px 40px;
+    background-color: rgb(11, 6, 7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: cursive;
+}
+button:hover{
+    background-color: rgb(75, 23, 127);
+
+}
