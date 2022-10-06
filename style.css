@@ -12,51 +12,57 @@ body {
     font-family: cursive;
 
 }
-.heading{
+
+.heading {
     display: flex;
     justify-content: center;
     align-items: center;
     color: lightyellow;
 
 }
-.rating{
+
+.rating {
     display: flex;
     justify-content: center;
     margin: 10px 0 0 0;
 
 }
-.input_container{
+
+.input_container {
     display: flex;
     justify-content: center;
 
 }
-input{
+
+input {
     margin: 30px 0 30px 0;
-    height: 30px;
+    height: 50px;
     width: 70%;
     border: none;
     border-radius: 4px;
 
 }
 
-input:focus{
+input:focus {
     outline: none;
 }
 
-textarea:focus{
+textarea:focus {
     outline: none;
 }
-.comment_container{
+
+.comment_container {
     display: flex;
     justify-content: center;
 }
-textarea{
+
+textarea {
     border-radius: 4px;
     width: 70%;
     height: 80px;
 }
 
-.textarea_container{
+.textarea_container {
     display: flex;
     justify-content: center;
 }
@@ -66,20 +72,22 @@ textarea{
     display: flex;
     flex-direction: column;
     border: 2px solid #F5F5F5;
-   
-        background-color: #886699;
-            background-image: linear-gradient(180deg, #886699 0%, #ccaadd 50%, #ffffff 100%);
+
+    background-color: #886699;
+    background-image: linear-gradient(180deg, #886699 0%, #ccaadd 50%, #ffffff 100%);
     margin-top: 120px;
-    box-shadow: 0 20px 20px rgba(0,0,0,0.2 );
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
 }
-.star_container{
+
+.star_container {
     display: flex;
     justify-content: center;
     cursor: pointer;
     margin: 10px;
 }
-p{
+
+p {
     font-size: 40px;
 
 }
@@ -87,12 +95,14 @@ p{
 .container ul {
     display: flex;
 }
-.button_container{
+
+.button_container {
     display: flex;
     justify-content: center;
     margin: 10px;
 }
-button{
+
+button {
     padding: 12px 40px 12px 40px;
     background-color: rgb(11, 6, 7);
     color: white;
@@ -103,7 +113,11 @@ button{
     font-weight: bold;
     font-family: cursive;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(75, 23, 127);
 
+}
+.comment{
+    height: 20px;
 }

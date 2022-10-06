@@ -1,72 +1,73 @@
-let collections= [];
-function addFeedback(){
+let collections = [];
+function addFeedback() {
     let userName = document.getElementById('userName').value;
-    let description = document.getElementById('description').value;
-    if(userName !='' && description !=''){
-  let collection= {
-    userName: userName,
-    description: description
+    // let description = document.getElementById('description').value;
+    if (userName !='' ) {
+        let collection = {
+            userName: userName,
+            // description: description
 
-  }
-  collections.push(collection);
+        }
+        collections.push(collection);
 
-}
-else{
-    alert('Please enter a user name and description');
-}
+    }
+    
+    else {
+        alert('Please enter feedback');     
+    }
+
+    window.location.reload()
+
+    
 }
 let flag = false;
 function one() {
     const h = document.getElementById('comment');
     h.style.color = 'Red'
-    h.innerHTML = 'Thanks!!! We will try to Improve';
-    document.getElementById('two').style.display = 'none';
-    document.getElementById('three').style.display = 'none';
-    document.getElementById('four').style.display = 'none';
-    document.getElementById('five').style.display = 'none';
+    h.innerHTML = 'Thanks for rating us 1⭐!!! We will try to Improve🥵';
+    // document.getElementById('two').style.display = 'none';
+    // document.getElementById('three').style.display = 'none';
+    // document.getElementById('four').style.display = 'none';
+    // document.getElementById('five').style.display = 'none';
     flag = true;
 }
+
 function two() {
     const h = document.getElementById('comment');
     h.style.color = 'Red'
-    h.innerHTML = ' Thanks!!! We will try to Improve';
-    document.getElementById('three').style.display = 'none';
-    document.getElementById('four').style.display = 'none';
-    document.getElementById('five').style.display = 'none';
+    h.innerHTML = 'Thanks for rating us 2⭐!!! We will try to Improve😌';
+    // document.getElementById('three').style.display = 'none';
+    // document.getElementById('four').style.display = 'none';
+    // document.getElementById('five').style.display = 'none';
     flag = true;
 }
+
 function three() {
     const h = document.getElementById('comment');
     h.style.color = 'Red'
-    h.innerHTML = 'Thanks!!! We will try to Improve';
-    document.getElementById('four').style.display = 'none';
-    document.getElementById('five').style.display = 'none';
+    h.innerHTML = 'Thanks for rating us 3⭐!!! We will try to Improve😅';
+    // document.getElementById('four').style.display = 'none';
+    // document.getElementById('five').style.display = 'none';
     flag = true;
 }
+
 function four() {
-    const h = document.getElementById('comment');
+    ;const h = document.getElementById('comment');
     h.style.color = 'green'
-    h.innerHTML = 'Thanks for your feedback!!!';
-    document.getElementById('five').style.display = 'none';
+    h.innerHTML = 'Thanks for rating us 4 ⭐🤩!!!'
+    // document.getElementById('five').style.display = 'none';
     flag = true;
 }
+
 function five() {
     const h = document.getElementById('comment');
     h.style.color = 'green'
-    h.innerHTML = 'Thanks for your feedback!!!';
+    h.innerHTML = 'Thanks for rating us 5⭐ 😍!!!';
     flag = true;
 }
-function submition() {
-    if (flag) {
-        document.getElementById('text').style.display = 'none';
-        console.log('display none');
-        document.getElementById('comment').innerHTML = 'Thank you!';
-        document.getElementById('comment').style.marginBottom = '20px';
-    }
-    else {
-        alert('Please give us your review...');
-    }
-}
+ 
+
+
 
 
 
