@@ -21,14 +21,18 @@ function addFeedback() {
     
 }
 let flag = false;
+
 function one() {
     const h = document.getElementById('comment');
     h.style.color = 'Red'
     h.innerHTML = 'Thanks for rating us 1⭐!!! We will try to Improve🥵';
-    // document.getElementById('two').style.display = 'none';
-    // document.getElementById('three').style.display = 'none';
-    // document.getElementById('four').style.display = 'none';
-    // document.getElementById('five').style.display = 'none';
+    document.getElementById('one').style.display ='⭐';
+    document.getElementById('two').style.display = 'none';
+    document.getElementById('three').style.display = 'none';
+    document.getElementById('four').style.display = 'none';
+    document.getElementById('five').style.display = 'none';
+    
+
     flag = true;
 }
 
@@ -36,9 +40,11 @@ function two() {
     const h = document.getElementById('comment');
     h.style.color = 'Red'
     h.innerHTML = 'Thanks for rating us 2⭐!!! We will try to Improve😌';
-    // document.getElementById('three').style.display = 'none';
-    // document.getElementById('four').style.display = 'none';
-    // document.getElementById('five').style.display = 'none';
+    document.getElementById('one').style.display = '⭐';
+    document.getElementById('two').style.display = '⭐';
+    document.getElementById('three').style.display = 'none';
+    document.getElementById('four').style.display = 'none';
+    document.getElementById('five').style.display = 'none';
     flag = true;
 }
 
@@ -46,8 +52,11 @@ function three() {
     const h = document.getElementById('comment');
     h.style.color = 'Red'
     h.innerHTML = 'Thanks for rating us 3⭐!!! We will try to Improve😅';
-    // document.getElementById('four').style.display = 'none';
-    // document.getElementById('five').style.display = 'none';
+    document.getElementById('one').style.display = '⭐';
+    document.getElementById('two').style.display = '⭐';
+    document.getElementById('three').style.display = '⭐';
+    document.getElementById('four').style.display = 'none';
+    document.getElementById('five').style.display = 'none';
     flag = true;
 }
 
@@ -55,7 +64,11 @@ function four() {
     ;const h = document.getElementById('comment');
     h.style.color = 'green'
     h.innerHTML = 'Thanks for rating us 4 ⭐🤩!!!'
-    // document.getElementById('five').style.display = 'none';
+    document.getElementById('one').style.display = '⭐';
+    document.getElementById('two').style.display = '⭐';
+    document.getElementById('three').style.display = '⭐';
+    document.getElementById('four').style.display = '⭐';
+    document.getElementById('five').style.display = 'none';
     flag = true;
 }
 
@@ -63,6 +76,11 @@ function five() {
     const h = document.getElementById('comment');
     h.style.color = 'green'
     h.innerHTML = 'Thanks for rating us 5⭐ 😍!!!';
+    document.getElementById('one').style.display = '⭐';
+    document.getElementById('two').style.display = '⭐';
+    document.getElementById('three').style.display = '⭐';
+    document.getElementById('four').style.display = '⭐';
+    document.getElementById('five').style.display = '⭐';
     flag = true;
 }
  
